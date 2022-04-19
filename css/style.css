@@ -1,0 +1,255 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    background-color: #F4F9FF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+
+}
+
+
+
+
+
+/* Header */
+
+
+
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.header__container {
+    margin: 0 auto;
+    width: 35.5rem;
+    
+    
+    
+}
+
+
+.header__logo {
+    font-size: 4rem;
+    margin: 5rem auto 0 auto;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    
+}
+
+
+
+.header__main {
+    width: 35.5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+
+
+}
+
+/* BODY */
+
+/* Section1 */
+
+.wrap {
+    height: 32.5rem;
+    
+}
+
+
+.wrap {
+    background-color: white;
+    
+
+
+
+
+}
+
+.section1__container {
+    width: 29.5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.section1__container h1 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    padding-top: 2rem;
+
+}
+
+.section1__container li {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+
+}
+.section1__container ul {
+    padding-left: 0;
+    list-style: none;
+    
+    
+}
+
+/* Section2 */
+
+.section2__container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    padding-top: 6rem;
+
+}
+
+.section2__container {
+    width: 29.5rem;
+    margin: 0 auto;
+}
+
+.section2__img {
+    width: 29.5rem;
+    height: 29.5rem;
+}
+
+/* Section3 */
+
+.section3__container {
+    margin: 0 auto;
+    width: 29.5rem;
+}
+
+.box {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 2.6rem;
+    padding: 1.5rem 0;
+
+}
+
+.box p {
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+
+
+
+.section3__container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+    margin-top: 2rem;
+    
+
+}
+
+.section3__container p, .section3__container a {
+    font-size: 1.4rem;
+}
+
+.section3__comment {
+    margin-bottom: 5rem;
+}
+
+.section3__container a {
+    display: inline-block;
+    margin-bottom: 10rem;
+}
+
+a:visited {
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer__container  {
+    width: 29.5rem;
+    margin: 0 auto;
+}
+
+
+
+/* PC screen */
+
+@media screen and (min-width: 1024px) {
+    .header__container {
+        width: 100rem;
+        
+
+    }
+
+    .header__main {
+        width: 100rem;
+        text-align: center;
+        
+    }
+
+    .wrap {
+        width: 100rem;
+        margin: 0 auto;
+        
+    
+    }
+
+    .section1__container {
+        width: 60rem;
+        
+    }
+
+    .mother {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    
+    }
+
+    .section2__container h2 {
+        margin-top: 0;
+    }
+
+    .section3__container {
+        
+        width: 23.5rem;
+       
+        margin-left: 6rem;
+
+        
+    }
+
+    .footer__container {
+        width: 60rem;
+    }
+
+    .section3__container h2 {
+        padding-top: 9rem;
+        margin-top: 0;
+    }
+
+    .footer__container {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+}
